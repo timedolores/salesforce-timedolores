@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Lead</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Lead Convertion</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Parabéns!! Mais um para a conta!!&lt;/p&gt;</info>
+        <picklistValueName>Closed - Converted</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Muito bom!!! Mas uma prospecto para trabalhar, agora é só passar para working e continuar trabalhando.&lt;/p&gt;</info>
+        <picklistValueName>Open - Not Contacted</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Tente extrair o máximo de informação possível, um Lead com bastante informação tem mais opções de produtos.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Ah, e não se esqueça que converter o Lead é necessário preencher as questões da seção Investment Profile.&lt;/p&gt;</info>
+        <picklistValueName>Working - Contacted</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>
